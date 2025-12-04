@@ -19,7 +19,10 @@ h1{
 /* login */
 
 .container-log{
-  
+    margin-top: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .login{
     width: 50%;
@@ -59,7 +62,7 @@ h3{
 }
 
 .cadastro{
-      margin-top: 2%;
+    margin-top: 2%;
     display: flex;
     justify-content: center;
     align-items: center;
