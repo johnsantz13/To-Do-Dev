@@ -1,0 +1,86 @@
+/* COnfiguração Geral */
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background: linear-gradient(to bottom, #89FF97,#18451D);
+    width: 100vw;
+    height: 100vh;
+}
+
+/*---------------Area de login----------------------*/
+h1{
+    margin-top: 20px;
+    text-align: center;
+    color: #18451D;
+}
+/* login */
+
+.container-log{
+  
+}
+.login{
+    width: 50%;
+    background-color: #319960;
+    display: grid;
+    grid-template-columns: 70% 1fr;
+    border-radius: 20px;
+}
+
+.login form{
+    margin-top: 30%;
+    color: #FFF;
+}
+
+.login input{
+    padding: 5px;
+    border-radius: 20px;
+    border: 1px solid #319960;
+    background-color: #B1FFD1;
+}
+
+.login a{
+    text-decoration: none;
+    background-color: #C2FF93;
+    color: #4CA792;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+/*----------------------------- Aréa Cadastro--------------------- */
+
+h3{
+    margin-top: 20px;
+    text-align: center;
+    color: #18451D;
+    font-size: 25pt;
+}
+
+.cadastro{
+      margin-top: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-cad{
+    width: 50%;
+    background-color: #319960;
+    display: grid;
+    grid-template-columns: 70% 1fr;
+    border-radius: 20px;
+}
+
+.container-cad  form{
+    margin-top: 30%;
+    color: #FFF;
+}
+
+.container-cad input{
+    padding: 5px;
+    border-radius: 20px;
+    border: 1px solid #319960;
+    background-color: #B1FFD1;
+}
