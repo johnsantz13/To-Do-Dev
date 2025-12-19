@@ -49,7 +49,15 @@ h1{
     background-color: #C2FF93;
     color: #4CA792;
     padding: 5px;
-    border-radius: 20px;
+    border-radius: 15px;
+}
+
+#buto-enviar{
+    padding: 10px;
+    margin-left: 50px;
+    background-color: #18451D;
+    color: #60ed71;
+    box-shadow: 3px 3px 1px 1px #60ed71;
 }
 
 /*----------------------------- Aréa Cadastro--------------------- */
@@ -89,6 +97,15 @@ h3{
 }
 
 /* -------------------DASHBOARD------------------------------ */
+
+p{
+    text-align: center;
+    margin-left: 5%;
+    margin-top: 10px;
+    font-size: 20pt;
+    font-weight: bold;
+    color: #0c2e10;
+}
 
 .card-info{
     display: flex;
