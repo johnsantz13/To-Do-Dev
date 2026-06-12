@@ -130,14 +130,37 @@ p{
    background-color: #18451d00;
    color: #60ed71;
    border: none;
+   cursor: pointer;
 }
 
 #adição > i{
     font-size: 30pt;
+    
 }
 
 .linha{
     margin-top: 20px;
     border: 1px solid #18451D;
 }
+/* ----------Area do modal--------- */
+.container-modal{
+    display: none;
+    position:absolute;
+    justify-content: center;
+    align-items: center;
+    left: 0;
+    right: 0;
+    bottom: 1%;
+    width: 100%;
+    height: 100%;
+    background-color: #0c2e10b3;
+}
 
+/* modal interno */
+.modal{
+    background-color: #319960;
+    padding: 50px 10px;
+    width: 300px;
+    border-radius: 10px;
+    text-align: center;
+}
