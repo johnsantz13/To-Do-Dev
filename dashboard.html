@@ -36,7 +36,7 @@
             </div>
         </div>
 
-        <button id="adição" onclick="criar()">
+        <button id="adicao" onclick="criar()">
             <i class="bi bi-plus-circle"></i><br>Nova tarefa
         </button>
         <div class="linha"></div>
@@ -58,11 +58,13 @@
                     <br>
                     <input type="text" name="urgencia" id="urgencia">
                     <br><br>
-                    <input type="button" value="Criar Atividade">
+                    <input type="button" value="Criar Atividade" id="criar">
+                    <input type="button" value="Cancelar" id="cancelar" onclick="cancel()">
                 </form>
             </div>
         </section>
     </main>
+    <script src="js/script.js"></script>
 </body>
 
 </html>

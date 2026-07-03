@@ -123,7 +123,7 @@ p{
     border-radius: 10px;
 }
 
-#adição{
+#adicao{
    margin-left: 49%;
    margin-top: 40px;
    font-size: 15pt;
@@ -133,7 +133,7 @@ p{
    cursor: pointer;
 }
 
-#adição > i{
+#adicao > i{
     font-size: 30pt;
     
 }
