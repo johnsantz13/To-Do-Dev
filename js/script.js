@@ -13,14 +13,3 @@ function logbt() {
         alert("usuario incorreto, tente novamente");
     }
 }
-
-
-// variavel modal
-const modal = document.querySelector(".container-modal");
-// moldura modal
-const boxmodal = document.querySelector(".modal");
-// botão modal fechar
-const cancel = document.querySelector("#cancel")
-// criar tarefa
-const criar = document.querySelectorAll("#adicao")
-// Ação do modal
